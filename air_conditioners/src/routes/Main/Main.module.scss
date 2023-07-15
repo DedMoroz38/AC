@@ -1,0 +1,44 @@
+.main {
+  margin: 0 auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../files/Main/ac2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #000;
+  color: white;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 136px;
+  margin-bottom: 30px;
+  & > h2 {
+    margin-bottom: 15px;
+  }
+  & > h1 {
+    margin-bottom: 10px;
+  }
+  & > p {
+    font-size: 20px;
+  }
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 960px;
+  height: 214px;
+  position: relative;
+  margin: 0 auto;
+  bottom: -30px;
+  background: white;
+}
+.cardLeft {
+}
+.cardRight {
+  background: rgb(236, 248, 249);
+}

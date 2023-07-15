@@ -1,0 +1,101 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.main {
+  background: linear-gradient(143.34deg, #93e5f8 11.15%, #6699ff 99.66%);
+  color: white;
+  padding: 60px 0;
+}
+
+.heading {
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+.heading > span {
+  color: #ff6b3f;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.infoBox {
+  border: 1px solid #000;
+  height: 116px;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.submissionForm {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.submissionForm > input {
+  border: none;
+  height: 44px;
+  padding-left: 15px;
+  font-size: 20px;
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.submissionForm > input::-webkit-input-placeholder > {
+  font-size: 40px;
+}
+
+.submissionForm > input:-ms-input-placeholder > {
+  font-size: 40px;
+}
+
+.submissionForm > input::-ms-input-placeholder > {
+  font-size: 40px;
+}
+
+.submissionForm > input::placeholder > {
+  font-size: 40px;
+}
+
+.submissionForm > button {
+  color: white;
+  font-size: 22px;
+  font-weight: 650;
+  border: none;
+  background: #f96d86;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.consent {
+  font-size: 13px;
+  width: 60%;
+}
+
+.consent > span {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=Booking.module.css.map */

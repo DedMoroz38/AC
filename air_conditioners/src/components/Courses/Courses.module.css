@@ -1,0 +1,65 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.main {
+  background: #cce6ff;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.headingBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  opacity: 0.7;
+}
+
+.headingBox > p {
+  font-size: 26px;
+}
+
+.headingBox > h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.card {
+  height: 200px;
+  margin-bottom: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px auto 200px;
+      grid-template-columns: 300px auto 200px;
+  background: white;
+}
+
+.cardLeft {
+  position: relative;
+  background: #ecf8f9;
+}
+
+.cardLeftBox {
+  position: absolute;
+  background: white;
+  width: 260px;
+  height: 50px;
+  bottom: 10px;
+  left: 10px;
+}
+
+.cardRight {
+  background: #ecf8f9;
+}
+/*# sourceMappingURL=Courses.module.css.map */

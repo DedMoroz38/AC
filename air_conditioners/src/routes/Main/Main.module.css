@@ -1,0 +1,58 @@
+.main {
+  margin: 0 auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../../files/Main/ac2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../files/Main/ac2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #000;
+  color: white;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 136px;
+  margin-bottom: 30px;
+}
+
+.heading > h2 {
+  margin-bottom: 15px;
+}
+
+.heading > h1 {
+  margin-bottom: 10px;
+}
+
+.heading > p {
+  font-size: 20px;
+}
+
+.card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  max-width: 960px;
+  height: 214px;
+  position: relative;
+  margin: 0 auto;
+  bottom: -30px;
+  background: white;
+}
+
+.cardRight {
+  background: #ecf8f9;
+}
+/*# sourceMappingURL=Main.module.css.map */

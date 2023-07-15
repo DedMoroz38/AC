@@ -1,0 +1,85 @@
+@import "../../App.scss";
+
+.header {
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  // background: rgba(37, 150, 190, 0.2);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(37, 150, 190, 0.8),
+    rgba(37, 150, 190, 0.8)
+  );
+}
+
+.top {
+  @extend .container;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  height: 68px;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  height: 44px;
+  & > p {
+    cursor: pointer;
+    color: black;
+    transition: all 0.2s;
+    &:hover {
+      color: #f96d86;
+    }
+  }
+}
+.phone {
+  display: flex;
+  height: 22px;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.8;
+
+  & > img {
+    height: 18px;
+    margin-right: 9px;
+  }
+  & > p {
+    font-weight: bold;
+    font-size: 22px;
+  }
+}
+
+.searchBox {
+  background: #f96d86;
+  width: 44px;
+  border-radius: 50%;
+  margin-left: 60px;
+}
+
+nav {
+  @extend .container;
+  width: 500px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  & > li {
+    list-style-type: none;
+    color: black;
+    opacity: 0.7;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,119 @@
+.container, .top, nav {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.header {
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(37, 150, 190, 0.8)), to(rgba(37, 150, 190, 0.8)));
+  background-image: linear-gradient(to bottom, rgba(37, 150, 190, 0.8), rgba(37, 150, 190, 0.8));
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon {
+  height: 68px;
+}
+
+.right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contactBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  height: 44px;
+}
+
+.contactBox > p {
+  cursor: pointer;
+  color: black;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.contactBox > p:hover {
+  color: #f96d86;
+}
+
+.phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 22px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.8;
+}
+
+.phone > img {
+  height: 18px;
+  margin-right: 9px;
+}
+
+.phone > p {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.searchBox {
+  background: #f96d86;
+  width: 44px;
+  border-radius: 50%;
+  margin-left: 60px;
+}
+
+nav {
+  width: 500px;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.links > li {
+  list-style-type: none;
+  color: black;
+  opacity: 0.7;
+  font-size: 14px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Header.module.css.map */
